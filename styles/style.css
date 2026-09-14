@@ -37,7 +37,7 @@
   padding-block: clamp(120px, 117.5352px + 0.6573vw, 127px);
   padding-inline: 10px;
   color: var(--text-color);
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   font-weight: var(--main-font-weight);
   line-height: 1;
   text-align: center;
@@ -128,7 +128,7 @@
   inset-block-start: 25px;
   inset-inline-end: 25px;
   opacity: 0.5;
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   font-variation-settings: normal;
   line-height: 1;
@@ -177,7 +177,7 @@
   min-block-size: 38px;
   border: 2px solid currentColor;
   padding: 9px 12px;
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   font-weight: var(--main-font-weight);
   line-height: 1;
@@ -269,7 +269,7 @@
   border: 2px solid currentColor;
   padding: 28px;
   color: var(--text-color);
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   font-weight: var(--main-font-weight);
   font-variation-settings: normal;
