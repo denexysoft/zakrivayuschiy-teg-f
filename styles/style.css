@@ -15,7 +15,7 @@
   min-block-size: 100dvb;
   font-family: var(--main-font), Arial, sans-serif;
   font-weight: var(--main-font-weight);
-  font-variation-settings: 'wght' var(--main-font-weight);
+  font-variation-settings: "wght" var(--main-font-weight);
   background-image: var(--page-background);
   background-size: cover;
   background-attachment: fixed;
@@ -38,8 +38,7 @@
   padding-inline: 10px;
   color: var(--text-color);
   font-family: var(--accent-font), monospace;
-  font-weight: 400;
-  font-variation-settings: normal;
+  font-weight: var(--main-font-weight);
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
@@ -58,6 +57,7 @@
 .main {
   display: grid;
   gap: 50px;
+  padding-block-end: 100px;
 }
 
 .card {
@@ -70,8 +70,7 @@
 .card__title {
   padding: 4px 10px;
   font-size: 18px;
-  font-weight: var(--title-font-weight);
-  font-variation-settings: 'wght' var(--title-font-weight);
+  font-variation-settings: "wght" var(--title-font-weight);
   line-height: 22px;
 }
 
@@ -180,8 +179,7 @@
   padding: 9px 12px;
   font-family: var(--accent-font), monospace;
   font-size: 14px;
-  font-weight: 400;
-  font-variation-settings: normal;
+  font-weight: var(--main-font-weight);
   line-height: 1;
   background-color: var(--surface-color);
   cursor: pointer;
@@ -189,7 +187,7 @@
 }
 
 .button::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: var(--text-color);
@@ -204,6 +202,9 @@
 
 .button:focus {
   outline: none;
+}
+
+.button:focus-visible {
   box-shadow: 2px 2px 0 var(--text-color);
 }
 
@@ -246,11 +247,6 @@
   flex-shrink: 0;
 }
 
-.footer {
-  display: grid;
-  padding-block: 50px 100px;
-}
-
 .save-button {
   justify-self: center;
   gap: 8px;
@@ -275,7 +271,7 @@
   color: var(--text-color);
   font-family: var(--accent-font), monospace;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: var(--main-font-weight);
   font-variation-settings: normal;
   line-height: 21px;
   text-transform: uppercase;
